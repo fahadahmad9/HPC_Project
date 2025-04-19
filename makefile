@@ -1,8 +1,9 @@
-CC = gcc
-CFLAGS = -Wall -O2
+# Use nvcc instead of gcc for CUDA compilation
+CC = nvcc
+CFLAGS = -O2 -g
 
 EXE = nn.exe
-SRC = nn.c
+SRC = nn.cu
 
 all: $(EXE) run
 
