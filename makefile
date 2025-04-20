@@ -3,7 +3,7 @@ CC = nvcc
 CFLAGS = -O2 -g
 
 EXE = nn.exe
-SRC = nn.cu
+SRC = V4.cu
 
 all: $(EXE) run
 
